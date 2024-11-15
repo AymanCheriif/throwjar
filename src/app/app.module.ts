@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MainComponent } from './components/main/main.component';
 import { HeroSectionComponent } from './layouts/hero-section/hero-section.component';
 import { UtilsSectionComponent } from './layouts/utils-section/utils-section.component';
+import { FunctionsSectionComponent } from './layouts/functions-section/functions-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UtilsSectionComponent } from './layouts/utils-section/utils-section.com
     HomeComponent,
     MainComponent,
     HeroSectionComponent,
-    UtilsSectionComponent
+    UtilsSectionComponent,
+    FunctionsSectionComponent
   ],
   imports: [
     BrowserModule,
