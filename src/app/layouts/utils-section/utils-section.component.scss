@@ -1,0 +1,70 @@
+section {
+  transform: translateY(-130px);
+  position: relative;
+  z-index: 10;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 42px;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.utils {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.utility {
+  width: 580px;
+  height: 586px;
+  padding: 35px;
+}
+
+.utility {
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 21px;
+  position: relative;
+}
+
+.utility .name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.utility .text {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.utility .label {
+  background-color: white;
+  width: 350px;
+  height: 58px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 25px;
+  position: absolute;
+}

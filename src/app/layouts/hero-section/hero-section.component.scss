@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 221px;
+  text-align: center;
+  gap: 42px;
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.title span {
+  color: #70e000;
+}
+
+.description {
+  font-size: 23px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+button {
+  padding: 19px 27px;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  border-radius: 20px;
+}
+
+.btn-demo {
+  background-color: #70e000;
+  color: white;
+}
+
+.shape {
+  position: absolute;
+  z-index: 0;
+  right: 60px;
+  top: 280px;
+}
+
+.image {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.blur-layer {
+  position: absolute;
+  width: 100%;
+  height: 428px;
+  background-color: white;
+  filter: blur(20px);
+  bottom: 0;
+}
