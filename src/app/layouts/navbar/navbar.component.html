@@ -18,6 +18,36 @@
         <button class="btn-login">login</button>
         <button class="btn-register">get started</button>
       </div>
+      <button class="hidden btn-nav" (click)="collapse()">
+        <img src="navbtn.svg" alt="" />
+      </button>
     </div>
   </div>
 </header>
+
+<div class="side-bar" [ngClass]="{ show: !collapsed }">
+  <div class="fluid-container">
+    <div class="flex justify-between py-[14px]">
+      <div class="logo">
+        <img src="logo.svg" alt="" srcset="" />
+        ThrowJar
+      </div>
+      <button>
+        <img src="close.svg" alt="" (click)="collapse()" />
+      </button>
+    </div>
+    <nav>
+      <ul class="flex items-center flex-col mt-[100px]">
+        <li class="font-bold text-[18px]">Home</li>
+        <li class="font-semibold text-[18px]">Caractérsitique</li>
+        <li class="font-semibold text-[18px]">Tarification</li>
+        <li class="font-semibold text-[18px]">Blog</li>
+        <li class="font-semibold text-[18px]">Contact</li>
+      </ul>
+    </nav>
+    <div class="flex justify-end gap-[] absolute bottom-[35px] right-[35px]">
+      <button class="btn-login">login</button>
+      <button class="btn-register">get started</button>
+    </div>
+  </div>
+</div>

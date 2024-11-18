@@ -1,0 +1,27 @@
+section {
+  transform: translateY(-200px);
+  position: relative;
+  z-index: 10;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+.title {
+  font-size: 58px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.description {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  max-width: 1075px;
+}

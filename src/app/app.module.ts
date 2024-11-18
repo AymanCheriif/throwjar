@@ -9,6 +9,9 @@ import { MainComponent } from './components/main/main.component';
 import { HeroSectionComponent } from './layouts/hero-section/hero-section.component';
 import { UtilsSectionComponent } from './layouts/utils-section/utils-section.component';
 import { FunctionsSectionComponent } from './layouts/functions-section/functions-section.component';
+import { CommentsSectionComponent } from './layouts/comments-section/comments-section.component';
+import { PlansSectionComponent } from './layouts/plans-section/plans-section.component';
+import { FooterSectionComponent } from './layouts/footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FunctionsSectionComponent } from './layouts/functions-section/functions
     MainComponent,
     HeroSectionComponent,
     UtilsSectionComponent,
-    FunctionsSectionComponent
+    FunctionsSectionComponent,
+    CommentsSectionComponent,
+    PlansSectionComponent,
+    FooterSectionComponent
   ],
   imports: [
     BrowserModule,
