@@ -25,3 +25,35 @@ section {
   margin: 0;
   max-width: 1075px;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 18px;
+  }
+
+  .content {
+    gap: 14px;
+    margin-top: 100px;
+  }
+
+  section {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 14px;
+  }
+
+  .content {
+    gap: 14px;
+    margin-top: 100px;
+  }
+}

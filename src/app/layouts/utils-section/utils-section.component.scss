@@ -39,6 +39,16 @@ section {
   margin-top: 25px;
 }
 
+.block {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.block:nth-child(2) {
+  justify-content: flex-start !important;
+}
+
 .utility {
   width: 580px;
   height: 586px;
@@ -81,13 +91,9 @@ section {
 
 @media screen and (max-width: 1440px) {
   .utils {
-    display: block;
+    flex-direction: column;
     width: 100%;
   }
-  .utility {
-    position: absolute;
-  }
-
   .utility:first-child {
     right: 0;
   }
